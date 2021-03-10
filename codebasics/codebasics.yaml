@@ -1,0 +1,20 @@
+name: codebasics
+
+channels:
+  - conda-forge
+  - defaults
+  
+  
+dependencies:
+ - python=3.7
+ - pandas
+ - numpy
+ - scikit-learn
+ - matplotlib
+ - seaborn
+  
+ # Jupyter env
+ - autopep8
+ - jupyterlab
+ - notebook
+ - jupyter_contrib_nbextensions
